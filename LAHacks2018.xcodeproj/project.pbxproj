@@ -14,6 +14,8 @@
 		B7493E95206F692900A86AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7493E93206F692900A86AC4 /* LaunchScreen.storyboard */; };
 		B7493EA0206F692900A86AC4 /* LAHacks2018Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7493E9F206F692900A86AC4 /* LAHacks2018Tests.swift */; };
 		B7493EAB206F692900A86AC4 /* LAHacks2018UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7493EAA206F692900A86AC4 /* LAHacks2018UITests.swift */; };
+		B7493EB9206F6A7300A86AC4 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7493EB8206F6A7300A86AC4 /* StudentViewController.swift */; };
+		B7493EBB206F6B6300A86AC4 /* ProfessorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7493EBA206F6B6300A86AC4 /* ProfessorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B7493EA6206F692900A86AC4 /* LAHacks2018UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LAHacks2018UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7493EAA206F692900A86AC4 /* LAHacks2018UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAHacks2018UITests.swift; sourceTree = "<group>"; };
 		B7493EAC206F692900A86AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7493EB8206F6A7300A86AC4 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		B7493EBA206F6B6300A86AC4 /* ProfessorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				B7493E8A206F692900A86AC4 /* AppDelegate.swift */,
 				B7493E8C206F692900A86AC4 /* ViewController.swift */,
+				B7493EB8206F6A7300A86AC4 /* StudentViewController.swift */,
+				B7493EBA206F6B6300A86AC4 /* ProfessorViewController.swift */,
 				B7493E8E206F692900A86AC4 /* Main.storyboard */,
 				B7493E91206F692900A86AC4 /* Assets.xcassets */,
 				B7493E93206F692900A86AC4 /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7493EB9206F6A7300A86AC4 /* StudentViewController.swift in Sources */,
 				B7493E8D206F692900A86AC4 /* ViewController.swift in Sources */,
+				B7493EBB206F6B6300A86AC4 /* ProfessorViewController.swift in Sources */,
 				B7493E8B206F692900A86AC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
